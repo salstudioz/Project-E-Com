@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Flaticon -->
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+
+    <!-- Swiper CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Draft E-Com Buku</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+62) 111111</span>
+
+                    <span>Lokasi kami</span>
+                </div>
+
+                <p class="header__alert-news">
+                    Gatau ini mau diisi apa
+                </p>
+                
+                <a href="login_register.html" class="header__top-action">
+                    Login | Sign Up
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-Links">
+                            BERANDA
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">
+                            TOKO
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="accounts.html" class="nav__link">
+                            AKUN SAYA
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">
+                            COMPARE
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="login_register.html" class="nav__link">
+                            LOGIN
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input type="text" 
+                    placeholder="Mencari item..." 
+                    class="form__input"
+                    />
+                    <button class="search__button">
+                        <img src="assets/img/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-button">
+                    <img src="assets/img/hati.png" alt="">
+                    <span class="count">3</span>
+                </a>
+
+                <a href="cart.html" class="header__action-button">
+                    <img src="assets/img/keranjang.png" alt="">
+                    <span class="count">99</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- Beranda -->
+        <section class="home section--lg">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">
+                        Promo sedang berjalan
+                    </span>
+                    <h1 class="home__title">
+                        Koleksi Novel Best Seller <span> karya Andrea Hirata</span>
+                    </h1>
+                    <p class="home__description">
+                        Hemat dengan Promo 12% diskon
+                    </p>
+                    <a href="shop.html" class="button">Belanja Sekarang !</a>
+                </div>
+                <img src="assets/img/promohome.png" alt="" class="home__image">
+            </div>
+        </section>
+
+        <!-- Genre -->
+        <section class="genres container section">
+            <h3 class="section__title">
+                <span>Genre</span> Populer
+            </h3>
+            <div class="genres__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (1).png" alt="" class="genre__img">
+
+                        <h3 class="genre__title">Kisah Cinta</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (2).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Drama</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (3).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Fantasi</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (4).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Novel Grafis</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (5).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Mitologi</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (6).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Legenda</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (7).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Komik</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (8).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Teknis</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (9).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Sains</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (10).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Fabel</h3>
+                    </a>
+
+                    <a href="shop.html" class="genre__item swiper-slide">
+                        <img src="assets/img/Genre/Genre (11).png" alt="" class="genre__img">
+                    
+                        <h3 class="genre__title">Sonet</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="fi fi-tr-caret-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fi fi-tr-caret-left"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produk -->
+        <section class="products section container">
+            <div class="tab__buttons">
+                <span class="tab__button active-tab" data-target="#terlaris">Terlaris</span>
+                <span class="tab__button" data-target="#populer">Populer</span>
+                <span class="tab__button" data-target="#terbaru">Terbaru</span>
+            </div>
+
+            <div class="tab__items">
+                <div class="tab__item active-tab" content id="terlaris">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (2).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (2).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-pink">-12%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Kisah Cinta</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Satu</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (3).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (3).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-green">Terlaris</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Kisah Cinta</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Dua</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (4).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (4).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge orange">Populer</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Drama</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Tiga</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (5).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (5).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Baru</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Fantasi</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Empat</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab__item" content id="populer">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (6).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (6).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge orange">Populer</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Sonnet</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Lima</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (1).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (1).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-pink">-20%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Sains</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Enam</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (7).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (7).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge orange">Populer</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Thiller</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Tujuh</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (8).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (8).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Terlaris</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Fabel</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Delapan</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab__item" content id="terbaru">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (9).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (9).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Baru</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Fabel</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Sembilan</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (10).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (10).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Baru</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Horror</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Sepuluh</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (11).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (11).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Baru</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Drama</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Sebelas</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/produk/produk (12).png" alt="" 
+                                    class="product__img default">
+                                    <img src="assets/img/produk/produk (12).png" alt="" 
+                                    class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__button" aria-label="Lihat">
+                                        <i class="fi fi-rr-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Tambah ke Wishlist">
+                                        <i class="fi fi-rr-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__button" aria-label="Bandingkan">
+                                        <i class="fi fi-rr-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product__badge light-blue">Baru</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="produk__genre">Fantasi</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Buku Dua belas</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                    <i class="fi fi-rr-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp. 111.111</span>
+                                    <span class="old__price">Rp. 121.111</span>
+                                </div>
+
+                                <a href="#" class="action__button cart__button" aria-label="Masukkan Keranjang">
+                                        <i class="fi fi-rr-shopping-bag-add"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Penawaran -->
+
+        <!-- Baru -->
+
+        <!-- Showcase -->
+
+        <!-- Newsletter -->
+
+        
+    </main>
+    
+    <!-- Footer -->
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main js -->
+     <script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+</html>
